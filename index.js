@@ -1,4 +1,4 @@
-/*
+
 
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
@@ -47,13 +47,5 @@ app.get('/',(req,res)=>{
 
 app.listen(port);
 
-*/
 
 
-const express = require('express');
-var port = process.env.PORT || 3000;
-
-app.get('/',(req,res)=>{
-  res.send('---rocket--');
-});
-app.listen(port);
